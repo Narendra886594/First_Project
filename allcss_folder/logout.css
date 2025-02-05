@@ -1,0 +1,65 @@
+/* Basic styles for the logout confirmation page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container to hold the confirmation message */
+.logout-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Style for the heading */
+h1 {
+    font-size: 24px;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+/* Style for the message paragraph */
+p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* Specific style for the "Log Out" button */
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Specific style for the "Cancel" button */
+.cancel-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.cancel-btn:hover {
+    background-color: #2980b9;
+}

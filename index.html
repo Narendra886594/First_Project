@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="allcss_folder/form.css">
+</head>
+<body>
+    <form action="form.php" method="post">
+        <div class="form">
+            <div class="title">Welcome</div>
+            <div class="subtitle">Let's create your account!</div>
+
+            <div class="input-container ic1">
+                <input id="first-name" name="first-name" class="input" type="text" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="first-name" class="placeholder">First name</label>
+            </div>
+
+            <div class="input-container ic2">
+                <input id="last-name" name="last-name" class="input" type="text" placeholder=" " required />
+                <div class="cut"></div>
+                <label for="last-name" class="placeholder">Last name</label>
+            </div>
+
+            <div class="input-container ic2">
+                <input id="email-id" name="email-id" class="input" type="email" placeholder=" " required />
+                <div class="cut cut-short"></div>
+                <label for="email-id" class="placeholder">Email</label>
+            </div>
+
+            <div class="input-container ic2">
+                <input id="password" name="password" class="input" type="password" placeholder=" " required />
+                <div class="cut cut-short"></div>
+                <label for="password" class="placeholder">Password</label>
+   
+            </div>
+
+            <div class="input-container ic2">
+                <input id="mobile-number" name="mobile-number" class="input" type="text" placeholder=" " required />
+                <div class="cut cut-short"></div>
+                <label for="mobile-number" class="placeholder">Mobile Number</label>
+            </div>
+
+            <button type="submit" class="submit" name="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>

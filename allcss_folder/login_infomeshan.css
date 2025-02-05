@@ -1,0 +1,116 @@
+ /* Resetting margins and padding */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #16a085;
+  }
+  
+  /* Styling the Container for the Marquee Text */
+  .size {
+    width: 100%;
+    background-color: #333;  
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+    margin-top: 30px;
+  }
+  
+  /* Marquee text styles */
+  marquee {
+    font-weight: bold;
+    font-size: 1.2em; 
+    color: #ffcc00; 
+    margin-bottom: 10px;
+  }
+  
+  /* Form Styling */
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    cursor: pointer;
+    width: 100%;  /* Full width buttons */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling for the "Create Account" Button */
+  #cread {
+    background-color: blueviolet;
+    color: white;
+  }
+  
+  #cread:hover {
+    background-color: #8e44ad;
+  }
+  
+  /* Styling for the "Back" Button */
+  #back {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  #back:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Optional: Focus Effect on Buttons */
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.3);
+  }
+  .size {
+    width: 100%;
+    background-color: #333;  
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  marquee {
+    font-weight: bold;
+    font-size: 1em; 
+    color: #ffcc00; 
+  }  
