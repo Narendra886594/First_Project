@@ -35,7 +35,7 @@ try {
     $preferred_height = $data[0]['preferred_height'] . ' Cm';
     $about_me = $data[0]['about_me'];
 
-    include_once('pdf_file/fpdf.php');
+    include_once('fpdf186/fpdf.php');
 
     $pdf = new FPDF();
     $pdf->AddPage();

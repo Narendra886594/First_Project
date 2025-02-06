@@ -1,7 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="allcss_folder/login.css">
+  <title>Login</title>
+</head>
+<body>
+  <h1>Login to Your Account</h1>
+
+  <!-- Login Form -->
+  <form method="POST" action="">
+    <div class="input_box">
+      <label for="email">Email</label>
+      <input type="email" name="email-id" placeholder="Enter your email" required>
+    </div>
+
+    <div class="input_box">
+      <label for="password">Password</label>
+      <input type="password" name="password" placeholder="Enter your password" required>
+    </div>
+
+    <button type="submit" name="login">Login</button>
+  </form>
+</body>
+</html>
+
 
 <?php
- http://localhost/project/loging.php
-
  session_start();
  if (isset($_POST['login'])) {
      if (isset($_POST['email-id']) && isset($_POST['password'])) {
@@ -27,7 +53,7 @@
                 $_SESSION['email'] = $data[0]['email_id'];
                 $_SESSION['id'] = $id;
                 
-                header('Location: http://localhost/students_project/login.php');        
+                header('location: login_infomeshan.php');        
             break;
                }
               }

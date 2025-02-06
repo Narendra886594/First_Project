@@ -31,7 +31,6 @@ body {
     text-align: center;
 }
 
-
 .login_form .login_option {
     display: flex;
     width: 100%;
@@ -131,7 +130,7 @@ form .input_box {
 
 a {
     text-decoration: none;
-    color: #626cd6;
+    color: #4747aa;
     font-weight: 500;
 }
 
